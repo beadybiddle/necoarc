@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <title>Neco Arc at Momocon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+    <div class="container">
+        <h1>Neco Arc at Momocon!</h1>
+        <img src="neco-arc.jpg" alt="Neco Arc" style="display: block; margin: auto;"> <!--Replace with your image-->
+        <h2>Hello, Melty Blood Fans!</h2>
+        <p>It's great to meet you all! I'm [Your Name], cosplaying as Neco Arc from our beloved fighting game, Melty Blood. It's my pleasure to participate in Momocon this year in Atlanta!</p>
+
+        <h2>Let's Stay Connected</h2>
+        <p>I don't use social media much, so I created this page as a way for us to stay connected. If you took photos with me or just want to say hi, feel free to get in touch:</p>
+        <p>Email: [Your Email]</p> <!--Replace with your email-->
+        <p>Or, drop me a line here:</p>
+        <form action="https://formspree.io/your@email.com" method="POST"> <!--Replace with your email and remember to register your email on Formspree-->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
 </body>
 </html>
